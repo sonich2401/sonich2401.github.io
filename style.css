@@ -1,6 +1,11 @@
 h1.titleHead
 {
+  color: #333;
+  padding-top: 30px;
+  height: 5px;
   text-align: center;
+  margin-top: -0px;
+  background-image: linear-gradient(#333,grey,darkgrey,white);
 }
 /* Added code from online */
 /* Add a black background color to the top navigation */
