@@ -16,10 +16,21 @@ body
 div.HeaderText
 {
   text-align:center;
-  padding-top:20px;
+  padding-top:50px;
+}
+div.ListTitle
+{
+   font-size:200%;
 }
 div.subitem
 {
+  margin-left:50px;
+  font-size:50%;
+}
+div.proBio
+{
+  margin-left:20px;
+  margin-top:10px;
 }
 /* Added code from online */
 /* Add a black background color to the top navigation */
