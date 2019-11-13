@@ -13,6 +13,14 @@ body
 {
   background-color:rgb(140,140,140);
 }
+//div.Header
+//{
+//background-image: url("https://wallpapercave.com/wp/Sg7oTrX.jpg");
+//background-size: 100%;
+//max-height: 125%;
+//margin-left:-8px;
+//max-width:125%;
+//}
 div.HeaderText
 {
   text-align:center;
@@ -21,10 +29,11 @@ div.HeaderText
 div.ListTitle
 {
    font-size:200%;
+   margin-left:50px;
 }
 div.subitem
 {
-  margin-left:50px;
+  margin-left:40px;
   font-size:50%;
 }
 div.proBio
@@ -39,6 +48,7 @@ div.proBio
   overflow: hidden;
   margin-top:-8px;
   margin-left:-8px;
+  width: 105%;
 }
 
 /* Style the links inside the navigation bar */
@@ -62,16 +72,4 @@ div.proBio
   background-color: #4CAF50;
   color: white;
 }
-//@font-face {
-//font-family: "a8bit";
-//src: url("CustomFont.eot");
-//src: url("https://undertale.com/assets/fonts/8bitOperatorPlus-Bold.woff") format("woff"),
-//url("CustomFont.otf") format("opentype"),
-//url("CustomFont.svg#filename") format("svg");
-//}
-
-//@font-face {
-//font-family: "Custon";
-//src: url("https://undertale.com/assets/fonts/8bitOperatorPlus-Bold.woff") format("woff");
-//}
 /* end of added code */
