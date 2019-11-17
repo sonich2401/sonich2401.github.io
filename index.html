@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
- <head>
-   	<meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
 	<title>Matthew's Website</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
-<div class="topnav">
- <a class="active" href="#home">Home</a>
-  <!-- Start of DropDown -->
-  <div class="dropdown">
-  <button class="dropbtn">Downloads</button>
+	<script src="script.js">
+	</script>
+	<div class="topnav">
+		<a class="active" href="#home">Home</a>
+		<!-- Start of DropDown -->
+		<div class="dropdown">
+			<button class="dropbtn">Downloads</button>
   <div class="dropdown-content">
     <!-- This is the python Dropdown Menu -->
     <div class="dropdown-Py">    <button class="dropbtn-Py"><a href="#Python">Python</a></button><div class="dropdown-Py-content">
@@ -40,8 +43,9 @@
 <li><div class="ListTitle" id="downloads">My Python Programs<div class="subitem">For now this section is blank because im only starting to understand the possiblites that the lanugauge has to offer. </br>Basicly, I didn't see much of a point in using python as my main programing language. However i plan to add programs </br>from my childhood here.</div></div></li>
 </br></br>
   </ul>
-  <h1 class="ProLang" id="Small Basic">Small Basic Programs</h1>
-  <ul>
+  <button id="Small Baisc" onclick="myFunction()" type="button" class="collapsible">Small Baisc</button>
+<div id="myDIV"class="HiddenText">
+<ul>
 	<li>
 	  <div class="ListTitle" id="sb_games">Games
 		</br></br>
@@ -90,6 +94,7 @@
 	  </div>
 	</li>
    </ul>
+</div> 
  </br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>
   </body>
 </html>
