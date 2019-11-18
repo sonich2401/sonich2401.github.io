@@ -6,3 +6,11 @@ function myFunction() {
     x.style.display = "none";
   }
 }
+function myFunction2() {
+  var y = document.getElementById("myDIV2");
+  if (y.style.display === "none") {
+    y.style.display = "block";
+  } else {
+    y.style.display = "none";
+  }
+}

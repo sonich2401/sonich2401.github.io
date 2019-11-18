@@ -2,6 +2,18 @@ div.HiddenText
 {
 display: none;
 }
+div.SocialCat{
+width: 100% ;
+height: 600px;
+background-attachment:fixed;
+background-image:url("https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+
+}
+div.socialTitle {
+  font-size:200%;
+color:white;
+text-align: center;
+}
 div.Grad
 {
   margin-top:42px;
@@ -264,6 +276,7 @@ div.proBio
   text-align: left;
   outline: none;
   font-size: 15px;
+  //margin:50px;
 }
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
