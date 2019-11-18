@@ -1,0 +1,61 @@
+<html>
+<style>
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #333;
+  border-radius: 50%;
+  display: inline-block;
+}
+</style>
+<script>
+var y_val=0;
+var x_val = 50;
+var new_x =" ";
+function MoveLeft(){
+x_val = x_val + 50;
+new_x =(y_val)+"px 0px 0px "+(x_val)+"px";
+var x = document.getElementById("ball");
+var y = document.getElementById("Words");
+y.innerHTML = new_x
+x.style.color = "red";
+x.style.margin = new_x
+//alert("x_val = "+x_val+"; new_x = "+new_x)
+}
+function MoveRight(){
+x_val = x_val - 50;
+new_x =(y_val)+"px 0px 0px "+(x_val)+"px";
+var x = document.getElementById("ball");
+var y = document.getElementById("Words");
+y.innerHTML = new_x
+x.style.color = "red";
+x.style.margin = new_x
+//alert("x_val = "+x_valR+"; new_x = "+new_x)
+}
+function MoveUp(){
+y_val = y_val - 50;
+new_x =(y_val)+"px 0px 0px "+(x_val)+"px";
+var x = document.getElementById("ball");
+var y = document.getElementById("Words");
+y.innerHTML = new_x
+x.style.color = "red";
+x.style.margin = new_x
+//alert("x_val = "+x_val+"; new_x = "+new_x)
+}
+function MoveDown(){
+y_val = y_val + 50;
+new_x =(y_val)+"px 0px 0px "+(x_val)+"px";
+var x = document.getElementById("ball");
+var y = document.getElementById("Words");
+y.innerHTML = new_x
+x.style.color = "red";
+x.style.margin = new_x
+//alert("x_val = "+x_val+"; new_x = "+new_x)
+}
+</script>
+<button onclick="MoveLeft()">Move Left</button><button onclick="MoveRight()">Move Right</button><button onclick="MoveUp()">Move Up</button><button onclick="MoveDown()">Move Down</button>
+<div id= "Words">HELP</div>
+<div id="ball">
+<span class="dot"></span>
+</div>
+</html>
