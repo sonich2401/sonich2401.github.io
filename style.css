@@ -6,7 +6,7 @@ div.SocialCat{
 width: 100% ;
 height: 600px;
 background-attachment:fixed;
-background-image:url("https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+//background-image:url("https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
 
 }
 div.socialTitle {
@@ -26,17 +26,18 @@ div.Grad
 }
 h1.titleHead
 {
-  color: #333;
-  padding-top: 30px;
-  height: 5px;
+  //color: #333;
+  //padding-top: 30px;
+  //height: 5px;
   text-align: center;
-  margin-top: -0px;
-  background-image: linear-gradient( rgba(51,51,51,1), rgba(51,51,51,0));
+  //margin-top: -0px;
+  //background-image: linear-gradient( rgba(51,51,51,1), rgba(51,51,51,0));
   margin-left:-8px;
 }
 body
 {
   background-color:rgb(140,140,140);
+
 }
 @font-face
 {
@@ -44,19 +45,34 @@ font-family: 'robot';
 src: url(Resuroses/8bitOperatorPlus-Regular.ttf);
 font-style:normal;
 }
-//div.Header
-//{
-//background-image: url("https://wallpapercave.com/wp/Sg7oTrX.jpg");
+div.Header
+{
+margin-top:60px;
+border: white solid;
+color:white;
+background-image:url("https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+background-repeat:none;
+padding:40px;
+background-attachment:fixed;
+width:90%;
+margin-left:30px;
 //background-size: 100%;
-//max-height: 125%;
+//height:600px;
 //margin-left:-8px;
 //max-width:125%;
-//}
+}
+div.HeadTextBox
+{
+  background-color: rgba(255, 255, 255, 0.85); 
+  color:#333;
+  border:#333 double;
+
+}
 h1.ProLang
 {
   text-align:center;
 }
-div.HeaderText
+p.HeaderText
 {
   text-align:center;
   padding-top:50px;
