@@ -283,7 +283,7 @@ div.proBio
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
     font-family: robot ;
-  background-color: #eee;
+  background-color: white;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -294,7 +294,22 @@ div.proBio
   font-size: 15px;
   //margin:50px;
 }
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+Img {
+ // width:75%;
+ // height:100px;
+ //max-height:75%;
+max-width:57px;
+height:auto;
+margin-left:50px;
+margin-top:-18px;
+position:absolute;
+ //height:100px;
+}
+button.Python {
+  width:100px;
+  height:100px;
+  margin-left:100px;
+}
 .active, .collapsible:hover {
   background-color: #ccc;
 }
