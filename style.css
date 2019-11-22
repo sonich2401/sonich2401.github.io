@@ -116,6 +116,7 @@ div.proBio
   margin-left:-8px;
   width: 105%;
   position: fixed;
+  z-index:2;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
