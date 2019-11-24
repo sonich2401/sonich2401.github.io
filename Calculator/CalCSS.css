@@ -1,0 +1,59 @@
+.titlediv {
+    margin-left: 40%;
+}
+
+button.Number1 {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    position: absolute;
+    border: solid 5px;
+    margin-left: 40%;
+    margin-top:30px;
+}
+
+button.Number2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    position: absolute;
+    border: solid 5px;
+    margin-left: 50%;
+    margin-top:30px;
+}
+
+body {
+    background-color: rgb(150, 150, 150);
+}
+
+table {
+    border: solid 10px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left:40.5%;
+}
+
+td {
+    text-align: right;
+}
+#MainCalcArea {
+    height:40%;
+    width:25%;
+    background-color:white;
+    margin-left:35%;
+    position:absolute;
+    border:double 10px;
+}
+#Results {
+    height:auto;
+    width:340px;
+    background-color:white;
+    padding:10px;
+    margin-left:35%;
+    position:absolute;
+    border:double 10px;
+    margin-top:375px;
+}
