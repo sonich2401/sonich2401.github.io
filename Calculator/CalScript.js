@@ -61,7 +61,7 @@ function seven() {
     if (Entry[CurNum - 1] !== 0); {
         Entry[CurNum - 1] = Entry[1] * 10 + 7
     }
-    if (Entry[CurNum - 1] == 0) {
+    if (Entry[CurNum - 1] == 0); {
         Entry[CurNum - 1] = 7
     }
 }
@@ -70,7 +70,7 @@ function eight() {
     if (Entry[CurNum - 1] !== 0); {
         Entry[CurNum - 1] = Entry[CurNum - 1] * 10 + 8
     }
-    if (Entry[CurNum - 1] == 0) {
+    if (Entry[CurNum - 1] == 0); {
         Entry[CurNum - 1] = 8
     }
 }
