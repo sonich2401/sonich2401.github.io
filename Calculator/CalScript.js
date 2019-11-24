@@ -4,11 +4,10 @@ var op = "add";
 
 
 function one() {
-    if (Entry[CurNum - 1] !== 0);
-    {
+    if (Entry[CurNum - 1] !== 0); {
         Entry[CurNum - 1] = Entry[CurNum - 1] * 10 + 1
     }
-    if (Entry[CurNum - 1] == 0); {
+    if (Entry[CurNum - 1] == 0) {
         Entry[CurNum - 1] = 1
     }
 }
@@ -17,7 +16,7 @@ function two() {
     if (Entry[CurNum - 1] !== 0); {
         Entry[CurNum - 1] = Entry[CurNum - 1] * 10 + 2
     }
-    if (Entry[CurNum - 1] == 0); {
+    if (Entry[CurNum - 1] == 0) {
         Entry[CurNum - 1] = 2
     }
 }
