@@ -1,7 +1,7 @@
 var CurNum = 1;
 var Entry = [0, 0];
 var op = "add";
-
+var final = 0;
 
 function one() {
     if (Entry[CurNum - 1] !== 0); {
@@ -82,7 +82,6 @@ function nine() {
     }
     if (Entry[CurNum - 1] == 0) {
         Entry[CurNum - 1] = 9
-        alert(Entry)
     }
 }
 
@@ -98,4 +97,34 @@ function num2() {
 function clear() {
     Entry[0] = 0;
     Entry[1] = 0;
+}
+function plus() {
+    op = "add"
+}
+function minus() {
+    op = "minus"
+}
+function mult() {
+    op = "mult"
+}
+function divis() {
+    op = "divis"
+}
+function calcu() {
+    if (op == "add") {
+        final = Entry[0] + Entry[1]
+        alert(final)
+    }
+        if (op == "minus") {
+        final = Entry[0] - Entry[1]
+        alert(final)
+    }
+        if (op == "divis") {
+        final = Entry[0] / Entry[1]
+        alert(final)
+    }
+        if (op == "mult") {
+        final = Entry[0] * Entry[1]
+        alert(final)
+    }
 }
