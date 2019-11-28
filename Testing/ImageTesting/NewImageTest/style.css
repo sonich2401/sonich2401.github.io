@@ -1,0 +1,30 @@
+#top{
+    text-align:center;
+    border:double 10px;
+}
+#TopGall {
+    margin-left:100px;
+    border:solid 1px;
+    width:50%;
+    height:auto;
+
+}
+#Left {
+    margin-left: 10%;
+    position:absolute;
+    margin-top:30px;
+}
+button {
+    width:64px;
+    height:64px;
+    border: none;
+    background-color:rgb(255,255,255,0)
+}
+img.arrowbutt {
+    width:64px;
+    height:64px;
+}
+div.num1 {
+    position:absolute;
+    z-index: -10;
+}
