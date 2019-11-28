@@ -1,0 +1,8 @@
+- Add Items To Social
+- Add "About" Section to the Top of the Page
+- The Style of the website looks like crap. Things you could fix could be ...
+
+# Fix Style
+- Change stupid Grey Background
+- White Theme is more inviting?
+
