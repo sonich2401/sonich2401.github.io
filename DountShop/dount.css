@@ -1,0 +1,20 @@
+#titleHead {
+    text-align: center;
+    font-size: 240%;
+    font-family: sans-serif;
+}
+#subtitle {
+    text-align: center;
+    border:soild 5px black;
+    font-size: 80%;
+    font-family: fantasy;
+}
+@font-face {
+  font-family: "Fairland";
+  src: local("Fairland");
+}
+div {
+border: 5px outset black;
+    border-bottom-color: aqua;
+        border-right-color: powderblue;
+}
