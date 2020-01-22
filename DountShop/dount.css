@@ -13,8 +13,19 @@
   font-family: "Fairland";
   src: local("Fairland");
 }
-div {
-border: 5px outset black;
+div.parent {
+border: 5px outset blue;
     border-bottom-color: aqua;
-        border-right-color: powderblue;
+        border-right-color: aqua;
+
+}
+div.child {
+    background-image:url(Img/donuts.jpg);
+        background-attachment: fixed;
+    position:absolute;
+    width: 97%;
+    height: 150px;
+    background-repeat: repeat-x;
+    z-index: -2;
+    margin-top: -150px
 }
