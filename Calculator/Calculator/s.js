@@ -20,6 +20,7 @@
 //}
 //compute(){
 
+
 //}
 //update(){
 //tif(num[8]==0){s.currentOperandTextElement.innerHTML = tif(num[8]==0){s.currentOperand
@@ -48,8 +49,9 @@ var prevDiv = document.getElementById("super");
 var curDiv = document.getElementById("mario");
 var ac = document.getElementById("helpmeplz");
 var t = 1;
-var num=[0,0,0,0,0,0,0,0,0,0];
-num[8] = 0  
+var num=[0,0,0,0,0,0,0,0,0,0,0];
+num[8] = 0
+num[4] = 0
 function one() {
 if(num[8]==0){
 num[1] = (num[1]*10)+1;
@@ -179,31 +181,49 @@ function add() {
 num[2] = 1
 num[0]=(num[0]+num[1]) 
 num[1] = 0
+num[8] = 0
 update()
 }
 function min() {
 num[2] = 2
-num[4] = num[4] + 1
-if (num[0] !== 0 ){num[0]=(num[0]-num[1])}
-if (num[4]<2){if (num[0] !== num[1]){if (num[0] == 0){num[0]=num[1]}}}
-if(num[0] == num[1]){num[0] = 0}
-if (num[4]>1){if (num[0] !== num[1]){num[0]=(num[0]-num[1])}}
-num[1] = 0
+if (num[4]==0){num[0]=(num[1]); (num[4] = 1);}
+if (num[4]==1){num[0]=(num[0]-num[1])}
+//if(num[0] == num[1]){num[0] = 0}
+//if (num[4]>1){if (num[0] !== num[1]){num[0]=(num[0]-num[1])}}
+//num[1] = 0
+    num[8] = 0
+        num[5] = (-1*(num[0] - num[1]))
+    num[0] = num[5]
+        num[1] = 0
+    num[6] = 1
 update()
+    num[6] = 0
+
 }
 function divide() {
 num[2] = 3
 if (num[0] !== 0){if(num[1] !== 0){ num[0]=(num[0]/num[1]) }}
 if (num[0] == 0){num[0]=num[1]}
 num[1] = 0
-
+num[8] = 0
 update()
 }
 function mult() {
 num[2] = 4
-num[0]=(num[0]*num[1]) 
-num[1] = 0
+
+if (num[4]==1){num[0]=(num[0]*num[1])}
+    if (num[0]==0){num[0]=(num[1]); (num[4] = 1);}
+//if(num[0] == num[1]){num[0] = 0}
+//if (num[4]>1){if (num[0] !== num[1]){num[0]=(num[0]-num[1])}}
+//num[1] = 0
+    num[8] = 0
+      //  num[5] = ((num[0] * num[1]))
+//    num[0] = num[5]
+        num[1] = 0
+    num[6] = 1
 update()
+    num[6] = 0
+
 }
 function calc() {
 if (num[2]==1){num[5]=(num[0]+num[1]);}
@@ -248,5 +268,11 @@ y.innerHTML = "0";
 }
 }
 function dec() {
-num[8] = 1
+if (num[1] > 0){
+    num[8] = 1
+}
+    if (num[1] < 0) {
+        num[8] = 0
+        num[1] = 0
+    }
 }
