@@ -79,6 +79,7 @@ function three() {
   if(num[8]==0){
 num[1] = (num[1]*10)+3;
 num[7] = 3
+  }
   if(num[8]==1){
     num[9] = num[9] + 1
 num[1] = (num[1])+(3/(num[9]*10));
