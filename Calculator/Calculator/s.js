@@ -250,6 +250,7 @@ for (i = 0; i < 10; i++) {
 }
 update()
 }
+
 function dead() {
 if (num[6]==0){
 num[0] = 0
