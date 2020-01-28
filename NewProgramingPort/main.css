@@ -1,0 +1,40 @@
+p {
+  font-size: 100px;
+}
+div.menu {
+  display: grid;
+  grid-column-gap: 0px;
+  margin-top:-100px;
+  margin-left:-10px;
+  position: fixed;
+  width:100%;
+}
+.title {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 240%;
+  border:double black;
+  padding:40px;
+}
+body {
+  background-color: gainsboro;
+}
+button.menItem1, button.menItem2 ,button.menItem3 {
+  border: none;
+  background: linear-gradient(grey,black);
+  margin: 0;
+  padding: 10px;
+}
+#home {
+  background: linear-gradient(#00FF00,green);
+}
+a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 165%;
+}
+.menItem1, .menItem2 ,.menItem3 {
+grid-row-start: 0;
+grid-row-end: 1;
+}
