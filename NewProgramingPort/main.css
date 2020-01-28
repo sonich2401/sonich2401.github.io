@@ -37,4 +37,75 @@ a {
 .menItem1, .menItem2 ,.menItem3 {
 grid-row-start: 0;
 grid-row-end: 1;
+
+}
+.Item1 {
+grid-row-start: 0;
+grid-row-end: 1;
+grid-column-start: 0;
+    grid-column-end: 1;
+
+}
+img.img1 {
+
+}
+.Item2 {
+grid-row-start: 0;
+grid-row-end: 2;
+grid-column-start: 1;
+    grid-column-end: 2;
+border-radius: 10px;
+    //position: absolute;
+    //margin-top:
+}
+.Textimg {
+    font-size: 30px;
+    position: absolute;
+    margin-top:-125;
+    margin-left:111;
+    color: white;
+    z-index: 12;
+}
+.Textimg1 {
+    font-size: 30px;
+    position: absolute;
+    margin-top:-125;
+    margin-left:111;
+    color: black;
+    transform: scale(1.1);
+    width: 60px;
+    z-index: 0;
+}
+.Item3 {
+grid-row-start: 0;
+grid-row-end: 1;
+grid-column-start: 3;
+    grid-column-end: 4;
+
+}
+div.itemGridWeb{
+    display: grid;
+}
+img {
+        max-width: 300px;
+transition: 1.75s ease;
+padding-bottom: 10px;
+    padding-top: 10px;
+}
+button {
+    border: none;
+}
+img:hover{
+   transform: scale(1.08);
+    transitoin: all;
+    transition-duration: .5s;
+
+}
+button.item1 {
+    border-radius: 10px;
+    border: solid white;
+    background-color: white;
+}
+div.itemGridWeb {
+    padding-top:60;
 }
