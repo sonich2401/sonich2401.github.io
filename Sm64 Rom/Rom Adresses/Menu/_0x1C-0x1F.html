@@ -1,0 +1,27 @@
+<style>
+  div {
+width:100%;
+height:50%;
+  }
+  img{
+    width:100%;
+  }
+  h2{
+    text-align:center;
+
+  }
+</style>
+<h4><a href="home.html">Click here to return</a></h4>
+<h1>Signature</h1>
+<ul>
+<li>0x1C-0x1D (uint16): The Magic Number - This number is used in the checkSum as an extra percaution to prevent corruption. If the checksum was lower than this number it would know that it was corrupted.</li>
+    <br>
+<li>0x1E-0x1F (uint16): CheckSum - This varible was used to detect if the save file was corrupted. It does this by adding up all of the numbers in the current save file and then storing it in the CheckSum. When the game boots up it will calculate the checksum and if it does not match the checksum that is stored on the cartridge it will restore a backup of the menu save</li>
+    <br>
+</ul>
+<div>
+  <h2>Visual Map
+  <img src="src/0x1C-0x1F.png">
+  
+  </img>
+</div>

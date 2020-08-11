@@ -1,0 +1,55 @@
+<style>
+  div {
+width:100%;
+height:50%;
+  }
+  img{
+    width:100%;
+  }
+  h2{
+    text-align:center;
+
+  }
+</style>
+<h4><a href="home.html">Click here to return</a></h4>
+<p>This section of memory is not very useful in my opinion. I found <a href="https://store.kde.org/p/1381869">somone who made a EEP struct</a> in a program langauge that i did not understand that explained that these were in fact a tie breaker feature. If File A had a high score of 101 coins on WF but soon after File B got 101 coins in WF the score screen could not figure out which was better. So they added a feature were the oldest File to get the high score. In this case it would be File A that would be listed as getting the best Coin Score for WF. When i built my save file editor i did not include support for saving these coin 'ages'. Instead i set them all to 0 and let SM64 set them to default values for me. As far as i can tell this does not affect the game in any way. However i will do my best to discribe what i think these bytes do.</p>
+<h1>Coin Score Ages</h1>
+<ul>
+<li>0x00 (uint8): Bomb-omb Battlefield Coin Score Age </li>
+    <br>
+<li>0x01 (uint8): Whomps Fortress Coin Score Age </li>
+    <br>
+<li>0x02 (uint8): Jolly Rodger Bay Coin Score Age </li>
+    <br>
+<li>0x03 (uint8): Cool Cool Mountain Coin Score Age </li>
+    <br>
+<li>0x04 (uint8): Big Boo's Haunt Coin Score Age </li>
+    <br>
+<li>0x05 (uint8): Hazy Maze Cave Coin Score Age </li>
+    <br>
+<li>0x06 (uint8): Lethal Lava Land Coin Score Age </li>
+    <br>
+<li>0x07 (uint8): Shifting Sand Land Coin Score Age </li>
+    <br>
+<li>0x08 (uint8): Dire Dire Docks Coin Score Age </li>
+    <br>
+<li>0x09 (uint8): Snowman's Land Coin Score Age </li>
+    <br>
+<li>0x0A (uint8): Wet Dry World Coin Score Age </li>
+    <br>
+<li>0x0B (uint8): Tall Tall Mountain Coin Score Age </li>
+    <br>
+<li>0x0C (uint8): Tiny Huge Island Coin Score Age </li>
+    <br>
+<li>0x0D (uint8): Tick Tock Clock Coin Score Age </li>
+    <br>
+<li>0x0E (uint8): Rainbow Ride Coin Score Age </li>
+    <br>
+<li>0x0F (uint8): Unused Cake Screen Level? </li>
+</ul>
+<div>
+  <h2>Visual Map
+  <img src="src/0x00-0x0F.png">
+  
+  </img>
+</div>

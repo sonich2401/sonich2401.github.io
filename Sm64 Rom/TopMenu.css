@@ -1,0 +1,35 @@
+body {margin:0;}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul.navbar li {
+  float: left;
+}
+
+ul.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.navbar li a:hover:not(.active) {
+  background-color: #000;
+}
+ul.navbar ul.navbar li.home {
+background-color: #1F1
+
+}
+ul.navbar li.home a:hover:not(.active) {
+  background-color: #0E0;
+}
