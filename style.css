@@ -1,0 +1,30 @@
+ h1.title{
+  position: center;
+  text-align: center;
+  color: white;
+}
+div.title{
+margin: auto;
+margin-top:20px;
+width:50%;
+border-style: solid;
+border-radius: 10px;
+border-color:darkgrey;
+background-color: #222;
+}
+img.EEP{
+width:50%;
+align-items: center;
+margin-left: 5%;
+}
+body{
+text-align: center;
+background-color: grey;
+color:white;
+border-radius: 5px;
+border-width: 5px;
+}
+p{
+padding-left: 5%;
+padding-right: 5%;
+}
